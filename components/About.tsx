@@ -32,7 +32,7 @@ export default function About() {
   return (
     <section id="about" className="max-w-[1040px] mx-auto px-8 py-20">
       <div className="font-mono text-xs text-purple mb-2.5">
-        // 01. the profile
+         01. the profile
       </div>
       <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink max-w-lg mb-11">
         Core Philosophy &amp; Mission
@@ -52,7 +52,7 @@ export default function About() {
       </div>
 
       <div className="font-mono text-xs text-pink mb-2.5">
-        // 03. career milestones
+         03. career milestones
       </div>
       <h3 className="text-2xl font-bold tracking-tight text-ink mb-8">
         Professional Experience

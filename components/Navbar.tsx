@@ -1,9 +1,17 @@
+import Image from "next/image";
+
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-10 bg-bg/90 backdrop-blur-sm border-b border-border">
       <div className="max-w-[1040px] mx-auto flex items-center justify-between px-8 py-4">
-        <div className="font-mono text-sm text-ink flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-teal"></span>
+        <div className="font-mono text-sm text-ink flex items-center gap-2.5">
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={32}
+            height={32}
+            className="rounded"
+          />
           farida_emad.dev
         </div>
         <nav>
@@ -25,6 +33,7 @@ export default function Navbar() {
             </li>
           </ul>
         </nav>
+
         <a
           href="#contact"
           className="font-mono text-[13px] border border-border rounded px-3.5 py-1.5 hover:border-purple hover:text-purple transition-colors"

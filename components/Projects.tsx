@@ -52,7 +52,7 @@ const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind", "Zustand", "Recharts"],
     link: "https://freight-pulse-frontend.vercel.app",
     color: "blue",
-    image: "/projects/qwizzy.png",
+    image: "/projects/FreightPulse.png",
   },
   {
     name: "Qwizzy",

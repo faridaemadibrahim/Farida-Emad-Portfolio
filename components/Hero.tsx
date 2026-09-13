@@ -1,9 +1,26 @@
+import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative max-w-[1040px] mx-auto px-8 pt-24 pb-20 overflow-hidden">
       <div className="absolute -top-20 -right-20 w-72 h-72 bg-purple/10 rounded-full blur-3xl"></div>
 
-      <div className="relative grid md:grid-cols-2 gap-12 items-center">
+      <div className="relative grid md:grid-cols-[auto_1fr_1fr] gap-8 items-center">
+        {/* الصورة */}
+        <div className="relative flex justify-center">
+          <div
+            className="absolute inset-0 bg-gradient-to-br from-purple via-pink to-orange opacity-60 blur-md animate-float"
+            style={{ borderRadius: "42% 58% 65% 35% / 45% 40% 60% 55%" }}
+          ></div>
+          <Image
+            src="/profile.jpeg"
+            alt="Farida Emad"
+            width={200}
+            height={200}
+            className="relative object-cover w-36 h-36 md:w-44 md:h-44 border-4 border-surface shadow-xl"
+            style={{ borderRadius: "42% 58% 65% 35% / 45% 40% 60% 55%" }}
+            priority
+          />
+        </div>{" "}
         {/* النص */}
         <div>
           <div className="flex flex-wrap gap-2.5 mb-7">
@@ -44,7 +61,6 @@ export default function Hero() {
             </a>
           </div>
         </div>
-
         {/* التيرمينال */}
         <div className="relative bg-surface border border-border rounded-xl overflow-hidden shadow-2xl">
           <div className="flex items-center gap-2 px-4 py-3 bg-surface-2 border-b border-border">

@@ -13,8 +13,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Morgan — Front-End Developer",
-  description: "Portfolio of Alex Morgan, front-end developer.",
+  title: "Farida Emad — Front-End Developer",
+  description: "Portfolio of Farida Emad, front-end developer.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${sans.variable} ${mono.variable} font-sans bg-white text-ink`}>
+      <body
+        className={`${sans.variable} ${mono.variable} font-sans bg-white text-ink`}
+      >
         {children}
       </body>
     </html>

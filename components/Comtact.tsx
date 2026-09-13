@@ -42,6 +42,26 @@ export default function Contact() {
             >
               +20 110 112 6564
             </motion.a>
+            <motion.a
+              href="https://www.linkedin.com/in/farida-emad-588bb9260/"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+              className="px-8 py-3.5 rounded-full font-semibold text-[14.5px] text-white border border-white/40"
+            >
+              LinkedIn
+            </motion.a>
+            <motion.a
+              href="https://github.com/faridaemadibrahim"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+              className="px-8 py-3.5 rounded-full font-semibold text-[14.5px] text-white border border-white/40"
+            >
+              GitHub
+            </motion.a>
           </div>
         </div>
       </div>
